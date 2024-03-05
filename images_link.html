@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Image linking in HTML</title>
+            <style>
+                .left-nav {
+                    position: fixed;
+                    top: 40%;
+                    left: 0;
+                    width: 60px;
+                    background-color: #333;
+                    color: white;
+                    padding: 20px;
+                }
+                .left-nav ul {
+                    list-style: none;
+                    line-height: 2;
+                    padding: 0;
+                }
+                .left-nav li {
+                    margin-bottom: 10px;
+                }
+
+                .left-nav a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                .left-nav a:hover {
+                    text-decoration: underline;
+                    color: #990;
+                }
+                .left-nav a:active {
+                    text-decoration: none;
+                    color: #93F;
+                    font-weight:bolder;
+                }
+                .content {
+                    margin-left: 100px;
+                    padding: 20px;
+                    text-align: center;
+                }
+                #home {
+                    text-decoration: double;
+                    line-height: 1.5;
+                    height: 100vh;
+                    text-align: center;
+                    
+                }
+                #tech {
+                    height: 600px;
+                }
+                #gallery {
+                    height: 100vh;
+                }
+                #menus {
+                    height: 100vh;
+                }
+ 
+            </style>
+        </head>
+        <body>
+            <!-- navigation -->
+            <nav class="left-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#menus">Menus</a></li>
+                </ul>              
+            </nav>
+            <div class="content">
+                            <!-- sections -->
+                <section id="home">
+                    <h1>What is the Importance of Technology?</h1>
+                    <img id="tech" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_the_Importance_of_Technology.jpg" alt="Importance of Technology">
+
+                </section>
+
+                <section id="gallery">
+                    <!-- header -->
+                    <div class="header">
+                        <h2>The Nature Conservancy: </h2>
+                        <p>Does nature need Technology?</p>
+                    </div>
+
+                    <!-- photo grid -->
+                    <div class="row">
+                        <div class="column">
+                            <img id="nature=tech" src="https://miro.medium.com/v2/resize:fit:600/format:webp/1*v276u7CRFQakdTBpLIoJmQ.jpeg" alt="Nature = Technology" height="300px">
+                            <img id="nature" src="https://www.bsr.org/images/heroes/bsr-focus-nature-hero.jpg" alt="Beautiful nature" width="500px" height="300px">
+                            <img id="nature+tech" src="https://cdn.givingcompass.org/wp-content/uploads/2020/03/04095400/How-Technology-And-Nature-Can-To-Work-Together-To-Feed-A-Growing-Population.jpg" alt="nature + technology">
+                        </div>
+                    </div>
+                </section>
+
+                <section id="menus">
+                    <h3>View several major delicacies...</h3>
+                    <ul>
+                        <li>Chapati</li>
+                        <li>Ugali Beef</li>
+                        <li>Omena</li>
+                    </ul>
+                    <img id="food" src="https://www.travel-challenges.com/cdn/shop/articles/Design_sem_nome.jpg?v=1684251137&width=1000" alt="African traditional food">
+
+                </section>
+        </div>
+
+            <br>
+            <br>
+           
+        </body>
+    </html>
